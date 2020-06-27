@@ -1,5 +1,5 @@
-#ifndef MUDUO_BASE_BLOCKINGQUEUE_H
-#define MUDUO_BASE_BLOCKINGQUEUE_H
+#ifndef CPPWHAREHOUSE_BASE_BLOCKINGQUEUE_H
+#define CPPWHAREHOUSE_BASE_BLOCKINGQUEUE_H
 
 #include <condition_variable>
 #include <mutex>
@@ -61,6 +61,6 @@ class BlockingQueue
   std::deque<T>     queue_;
 };
 
-}  // namespace muduo
+}  
 
-#endif  // MUDUO_BASE_BLOCKINGQUEUE_H
+#endif  // 
